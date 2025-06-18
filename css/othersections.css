@@ -1,0 +1,296 @@
+.clients {
+  font-family: 'Inter';
+  text-align: center;
+  padding: 0px 50px;
+  margin: 50px 0px;
+}
+
+.clients>* {
+  margin-bottom: 10px;
+}
+
+.clients-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 130px;
+  margin: 40px auto;
+  /* margin-left: 100px; */
+  justify-content: center;
+  /* justify-content: space-around; */
+}
+
+.clients-wrapper.img {
+  width: 33px;
+  height: 33px;
+}
+
+.community {
+  font-family: 'Inter';
+  text-align: center;
+  padding: 0px 50px;
+  margin: 50px 0px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.community>* {
+  margin-bottom: 5px;
+}
+
+.community-wrapper {
+  margin-top: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  gap: 129px;
+}
+
+.community-card {
+  box-shadow: 2px 2px 5px rgb(231, 229, 229);
+  width: 250px;
+  border-radius: 5px;
+  padding: 10px;
+  transition: 0.4s ease box-shadow;
+}
+
+.community-card:hover {
+  box-shadow: -2px -2px 5px rgb(231, 229, 229);
+}
+
+.community-card>* {
+  margin-bottom: 20px;
+}
+
+.community-card p {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.same-section {
+  font-family: 'Inter';
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.same-section-img {
+  flex: 40%;
+  display: grid;
+  place-content: center;
+}
+
+.same-section-content {
+  width: 460px;
+  padding: 40px;
+  flex: 60%;
+}
+
+.same-section-content>* {
+  margin-bottom: 20px;
+}
+
+.testimonial-card {
+  display: flex;
+  align-items: center;
+  background-color: #F5F7FA;
+}
+
+.testimonial-card-img {
+  width: 400px;
+  height: 226px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-left: 210px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.testimonial-card-content {
+  max-width: 100%;
+  font-family: 'Inter';
+  height: 226px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.testimonial-card-text {
+  margin-bottom: 11px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 14.14px;
+  line-height: 16.71px;
+
+}
+
+.testimonials-card-name {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 15.92px;
+  line-height: 19.49px;
+  color: #4CAF4F;
+  margin-bottom: 5px;
+
+}
+
+.testimonial-card__position {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14.14px;
+  line-height: 16.71px;
+  margin-bottom: 22px;
+
+}
+
+.testimonial-card__brands {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.read-more-btn {
+  color: #4CAF4F;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 15.92px;
+  line-height: 19.49px;
+
+}
+
+.marketing-card-content {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 13.92px;
+  line-height: 19.49px;
+  text-align: center;
+
+}
+
+.greeting-title {
+  width: 617px;
+  margin-left: 400px;
+}
+
+.greeting h1 {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 44.55px;
+  line-height: 52.9px;
+  text-align: center;
+
+}
+
+@media only screen and (min-width: 790px) {
+  .same-section {
+    margin: 50px;
+  }
+}
+
+.stats {
+  font-family: 'Inter';
+  background-color: var(--hero-bg-color);
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.stats .stats-first {
+  padding: 50px;
+}
+
+.stats .stats-first h3>span {
+  color: var(--primary-color);
+  display: block;
+}
+
+.stats-second {
+  max-width: 500px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.stat {
+  flex: 1;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.marketing {
+  font-family: 'Inter';
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+}
+
+.marketing-content {
+  max-width: 900px;
+}
+
+.marketing-content>* {
+  margin-bottom: 10px;
+}
+
+.marketing-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.marketing-card-content {
+  position: absolute;
+  width: 200px;
+  left: 30px;
+  top: 60%;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: var(--hero-bg-color);
+  box-shadow: 2px 2px 5px rgb(215, 215, 215);
+}
+
+.marketing-card-content>* {
+  margin: 5px;
+}
+
+.marketing-card-content .read-more-btn {
+  color: var(--primary-color);
+}
+
+.marketing-cards>.marketing-card {
+  width: 260px;
+  height: 260px;
+  position: relative;
+}
+
+.greeting {
+  font-family: 'Inter';
+  text-align: center;
+  background-color: var(--hero-bg-color);
+  padding: 40px;
+  font-size: 1.2rem;
+  color: #2e2d2d;
+}
+
+.greeting h1 {
+  margin-bottom: 20px;
+}
